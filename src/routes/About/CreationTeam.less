@@ -1,0 +1,77 @@
+.creation-team{
+  margin-top: 30px;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #f5f5f5;
+  .team-title{
+    color:#000;
+    font-size: 16px;
+  }
+  .team-title-in-English{
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .person{
+    width: 45%;
+    display: inline-block;
+    padding: 20px 30px;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    margin: 2%;
+    .person-photo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 10px;
+      background: #ccc;
+      float: left;
+    }
+    .person-introduction{
+      overflow: hidden;
+      text-align: left;
+      .person-name{
+        font-size: 14px;
+        color: #000;
+      }
+      .person-position{
+        font-size: 10px;
+        color: #ccc;
+      }
+      .person-description{
+        // text-overflow: ellipsis;
+        // display: -webkit-box;
+        // -webkit-box-orient: vertical;
+        // -webkit-line-clamp: 3;
+        position:relative;
+        line-height:1.4em;
+        height:4.2em;
+        overflow:hidden;
+      }
+      .person-description::after {
+        content:"...";
+        font-weight:bold;
+        position:absolute;
+        bottom:0;
+        right:0;
+        padding:0 20px 1px 45px;
+      }
+    }
+  }
+  .ant-carousel .slick-slide {
+    // text-align: center;
+    // height: 160px;
+    // line-height: 160px;
+    // background: #364d79;
+    overflow: hidden;
+  }
+  .ant-carousel .slick-dots li button{
+    background: #ccc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}
