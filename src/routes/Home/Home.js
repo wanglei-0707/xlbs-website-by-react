@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import LogoImg from './assets/logo.png'
+import LogoImg from '../../static/assets/index.png'
 import Navbar from '../../components/Navbar/index.js'
 import './Home.less'
 

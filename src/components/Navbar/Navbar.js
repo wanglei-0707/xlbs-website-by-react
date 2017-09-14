@@ -56,12 +56,12 @@ class Navbar extends React.Component {
                 <Icon type='home' />
               </li>
               <li>
-                <Link to='/about'>服务案例</Link>
+                <Link to='/case'>服务案例</Link>
                 <span className='ant-divider' />
                 <Icon type='appstore-o' />
               </li>
               <li>
-                <Link to='/about'>联系我们</Link>
+                <Link to='/contract'>联系我们</Link>
                 <span className='ant-divider' />
                 <Icon type='phone' />
               </li>
